@@ -1,4 +1,4 @@
-package com.digitalExperience.pages.digitalExp_pages;
+package com.digitalExperience.pages.digitalExpUI_pages;
 
 import com.digitalExperience.utilities.BrowserUtils;
 import com.digitalExperience.utilities.Driver;

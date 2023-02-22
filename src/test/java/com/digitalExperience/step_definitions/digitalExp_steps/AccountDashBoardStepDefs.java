@@ -1,6 +1,6 @@
-package com.digitalExperience.step_definitions.digitalExp_StepDefs;
+package com.digitalExperience.step_definitions.digitalExp_steps;
 
-import com.digitalExperience.pages.digitalExp_pages.AccountDashboardPage;
+import com.digitalExperience.pages.digitalExpUI_pages.AccountDashboardPage;
 import com.digitalExperience.utilities.BrowserUtils;
 import com.digitalExperience.utilities.Driver;
 import io.cucumber.java.en.*;
