@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.15">
+<testcase classname="Payment verifications of all types" name="Visa card payment verification" time="1.791">
+<failure message="com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;" type="java.lang.NoSuchMethodError"><![CDATA[Given User opens expected 'URL'.............................................skipped
+Given User finds closest store by '33606'...................................skipped
+Then User hovers over on "furniture" and clicks on "Tables".................skipped
+Then User clicks Quick View on top of the First Product.....................skipped
+Then User clicks on Add Item to Cart........................................skipped
+Then User navigates to cart page............................................skipped
+Then User clicks on Confirm button to confirm the zip code..................skipped
+Then User clicks on Secure Check out button.................................skipped
+Then User manually enters customer info in all fields on Secure Checkout Delivery Page.skipped
+Then User clicks on Continue button after filling in address info on check-out page.skipped
+Then User clicks on Use Address as Entered button on PopUp window...........skipped
+Then User clicks on continue to billing and payment button..................skipped
+Then User is on Billing and Payment Page....................................skipped
+Then User clicks on Credit Card Payment option..............................skipped
+Then User enters Credit card Info on Billing page...........................skipped
+Then User clicks on Continue Button on Billing Page.........................skipped
+Then User clicks on Place Order button......................................skipped
+Then User verifies successful order submission..............................skipped
+
+StackTrace:
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at com.digitalExperience.utilities.Driver.getDriver(Driver.java:41)
+	at com.digitalExperience.step_definitions.smoke_sfcc.Hooks.setUpBrowser(Hooks.java:43)
+]]></failure>
+</testcase>
+</testsuite>
